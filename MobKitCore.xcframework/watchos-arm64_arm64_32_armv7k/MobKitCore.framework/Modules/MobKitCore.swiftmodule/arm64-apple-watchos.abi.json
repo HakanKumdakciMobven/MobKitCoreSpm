@@ -1,0 +1,418 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MobKitCore",
+    "printedName": "MobKitCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobKitCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobKitComponentConformance",
+        "printedName": "MobKitComponentConformance",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MobKitCore0aB20ComponentConformanceP6sharedxyFZ",
+            "mangledName": "$s10MobKitCore0aB20ComponentConformanceP6sharedxyFZ",
+            "moduleName": "MobKitCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobKitCore.MobKitComponentConformance>",
+            "sugared_genericSig": "<Self where Self : MobKitCore.MobKitComponentConformance>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MobKitCore0aB20ComponentConformanceP5setupyyF",
+            "mangledName": "$s10MobKitCore0aB20ComponentConformanceP5setupyyF",
+            "moduleName": "MobKitCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobKitCore.MobKitComponentConformance>",
+            "sugared_genericSig": "<Self where Self : MobKitCore.MobKitComponentConformance>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10MobKitCore0aB20ComponentConformanceP",
+        "mangledName": "$s10MobKitCore0aB20ComponentConformanceP",
+        "moduleName": "MobKitCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobKitComponent",
+        "printedName": "MobKitComponent",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MobKitCore0aB9ComponentC6sharedACXDyFZ",
+            "mangledName": "$s10MobKitCore0aB9ComponentC6sharedACXDyFZ",
+            "moduleName": "MobKitCore",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MobKitCore0aB9ComponentC5setupyyF",
+            "mangledName": "$s10MobKitCore0aB9ComponentC5setupyyF",
+            "moduleName": "MobKitCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobKitComponent",
+                "printedName": "MobKitCore.MobKitComponent",
+                "usr": "s:10MobKitCore0aB9ComponentC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MobKitCore0aB9ComponentCACycfc",
+            "mangledName": "$s10MobKitCore0aB9ComponentCACycfc",
+            "moduleName": "MobKitCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MobKitCore0aB9ComponentC",
+        "mangledName": "$s10MobKitCore0aB9ComponentC",
+        "moduleName": "MobKitCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MobKitComponentConformance",
+            "printedName": "MobKitComponentConformance",
+            "usr": "s:10MobKitCore0aB20ComponentConformanceP",
+            "mangledName": "$s10MobKitCore0aB20ComponentConformanceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobKitCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobKit",
+        "printedName": "MobKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MobKitCore.MobKitComponent.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobKitCore.MobKitComponent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobKitComponent",
+                        "printedName": "MobKitCore.MobKitComponent",
+                        "usr": "s:10MobKitCore0aB9ComponentC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MobKitCore0aB0C5setup4withySayAA0aB9ComponentCmG_tFZ",
+            "mangledName": "$s10MobKitCore0aB0C5setup4withySayAA0aB9ComponentCmG_tFZ",
+            "moduleName": "MobKitCore",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isDeveloperModeOn",
+            "printedName": "isDeveloperModeOn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MobKitCore0aB0C17isDeveloperModeOnSbvpZ",
+            "mangledName": "$s10MobKitCore0aB0C17isDeveloperModeOnSbvpZ",
+            "moduleName": "MobKitCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MobKitCore0aB0C17isDeveloperModeOnSbvgZ",
+                "mangledName": "$s10MobKitCore0aB0C17isDeveloperModeOnSbvgZ",
+                "moduleName": "MobKitCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MobKitCore0aB0C17isDeveloperModeOnSbvsZ",
+                "mangledName": "$s10MobKitCore0aB0C17isDeveloperModeOnSbvsZ",
+                "moduleName": "MobKitCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MobKitCore0aB0C17isDeveloperModeOnSbvMZ",
+                "mangledName": "$s10MobKitCore0aB0C17isDeveloperModeOnSbvMZ",
+                "moduleName": "MobKitCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobKit",
+                "printedName": "MobKitCore.MobKit",
+                "usr": "s:10MobKitCore0aB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MobKitCore0aB0CACycfc",
+            "mangledName": "$s10MobKitCore0aB0CACycfc",
+            "moduleName": "MobKitCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MobKitCore0aB0C",
+        "mangledName": "$s10MobKitCore0aB0C",
+        "moduleName": "MobKitCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cemeke\/Desktop\/MobKitCore\/Sources\/MobKitCore\/MobKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 602,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
