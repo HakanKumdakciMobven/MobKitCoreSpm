@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "MobKitCore",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
